@@ -20,10 +20,6 @@ public class CompsinjdepApplication implements CommandLineRunner {
     public static void main(String[] args) {
         SpringApplication.run(CompsinjdepApplication.class, args);
 
-
-
-
-
     }
 
     @Override

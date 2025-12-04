@@ -12,7 +12,7 @@ public class ShippingService {
 
         double totalDiscount = order.getBasic() - orderDiscount;
 
-         if (totalDiscount <= 100) {
+        if (totalDiscount <= 100) {
             return orderDiscount - 20;
         } else if (totalDiscount <= 200) {
             return orderDiscount - 12;
