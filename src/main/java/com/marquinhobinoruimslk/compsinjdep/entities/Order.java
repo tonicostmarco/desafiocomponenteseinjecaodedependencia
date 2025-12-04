@@ -1,7 +1,5 @@
 package com.marquinhobinoruimslk.compsinjdep.entities;
 
-import org.springframework.beans.factory.annotation.Autowired;
-
 public class Order {
 
     private Integer code;
